@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Form page</title>
+</head>
+
+<body>
+    <div>
+        <h1>Create a new account</h1>
+
+        <form>
+            <div>
+                <label>Email id</label>
+                <input type="text" placeholder="enter your email">
+            </div>
+            <br>
+            <div>
+                <label> Password</label>
+                <input type="number" placeholder=" strong password">
+            </div>
+            <br>
+            <div>
+                <label> Country</label>
+                <input type="text" list="country list">
+                <datalist id="country list">
+                    <option>India</option>
+                    <option>Australia</option>
+                    <option>Ukraine</option>
+                    <option>Russia</option>
+                    <option>China</option>
+                    <option>Germany</option>
+                    <option>France</option>
+                    <option>Sweden</option>
+
+
+                </datalist>
+            </div>
+            <br>
+            <div>
+                <label> Zip code</label>
+                <input type="text" size="8" minlength="6" maxlength="6">
+            </div>
+            <br>
+            <div>
+                <label> randome</label>
+                <input type="text" size="8" value="India" readonly>
+            </div>
+            <br>
+            <div>
+                <label> disabled</label>
+                <input type="text" size="8" value=" India" disabled>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox">
+                <label>Yes, I agree </label>
+
+            </div>
+            <br>
+            <div>
+
+                <input type="button" size="8" value=" Register">
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
