@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> ROWSPAN Document</title>
+    <style>
+        body {
+            background-color: rgb(142, 199, 222);
+            text-align: center;
+        }
+
+        h2 {
+            font-family: cursive;
+        }
+
+        table {
+            background-color: white;
+            margin-left: 420px;
+
+
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+
+        th:nth-child(even),
+        td:nth-child(even) {
+            background-color: rgba(150, 212, 212, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Rowspan</h2>
+    <table frame="box" rules="all" cellpadding="25">
+        <tr>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>SUBJECT</th>
+            <th>branch</th>
+
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Sumit</td>
+            <td>Java</td>
+            <td rowspan="4">CSE</td>
+
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Adarsh</td>
+            <td>C++</td>
+
+
+
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Himanshu</td>
+            <td>Python</td>
+
+
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Jai</td>
+            <td>MySQL</td>
+
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
