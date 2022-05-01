@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            height: 400px;
+            width: 1000px;
+            margin: 180px 130px;
+            background-color: red;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .item1,
+        .item2,
+        .item3 {
+            background-color: green;
+            height: 80px;
+            width: 150px;
+
+        }
+
+        .item1 {
+            justify-content: start;
+        }
+
+        .item2 {
+            display: flex;
+            align-items: center;
+        }
+
+        .item3 {
+            display: flex;
+            justify-content: right;
+            align-items: flex-end;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="item1">child1</div>
+        <div class="item2">child2</div>
+        <div class="item3">child3</div>
+
+    </div>
+
+</body>
+
+</html>
